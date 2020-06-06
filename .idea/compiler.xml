@@ -6,8 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="universal-online-payment" />
+        <module name="provider-paypal" />
+        <module name="provider-api" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="universal-online-payment-dependencies" target="11" />
+    </bytecodeTargetLevel>
   </component>
 </project>
